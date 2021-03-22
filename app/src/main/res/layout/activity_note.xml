@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <ImageView
+
+        <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:srcCompat="@drawable/fon1_v"
         android:scaleType="centerCrop"
-        android:src="@drawable/fon1_v"
-        />
-    <fragment
-        android:id = "@+id/notes"
-        android:name = "ru.bondarev.android1.notes.ListOfNotesFragment"
-        android:layout_width = "match_parent"
-        android:layout_height = "match_parent" />
+        android:src="@drawable/fon1_v"/>
+
 
 </FrameLayout>
