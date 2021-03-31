@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Notes</string>
+    <string name="first_note_title">Note № 1</string>
+    <string name="first_note_content">Content of the first Note</string>
+    <string name="second_note_title">Note № 2</string>
+    <string name="second_note_content">Content of the second Note</string>
+    <string name="third_note_title">Note № 3</string>
+    <string name="third_note_content">Content of the third Note</string>
+    <string name="note_title">Note title</string>
+    <string name="note_content">Note content</string>
 </resources>
